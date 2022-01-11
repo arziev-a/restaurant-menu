@@ -1,4 +1,6 @@
 "use strict";
+const container = document.querySelector(".main-container");
+const nameOfFood = document.querySelector("p");
 
 ////this is Pizza UI
 const renderPizza = () => {
