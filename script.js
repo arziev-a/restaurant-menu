@@ -1,6 +1,6 @@
 "use strict";
-const container = document.querySelector(".main-container");
-const nameOfFood = document.querySelector("p");
+
+////this is Pizza UI
 const renderPizza = () => {
   fetch("https://ig-food-menus.herokuapp.com/pizzas")
     .then((response) => response.json())
@@ -20,6 +20,7 @@ const renderPizza = () => {
 };
 renderPizza();
 
+////this is drinks UI
 const renderDrinks = () => {
   fetch("https://ig-food-menus.herokuapp.com/drinks")
     .then((response) => response.json())
